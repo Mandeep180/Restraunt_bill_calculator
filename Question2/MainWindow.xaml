@@ -1,0 +1,14 @@
+﻿<Window x:Class="Question2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Question2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.499,0.529">
+        <local:LoginUserControl x:Name="logincontrol" Margin="0,-60,0,60"/>
+        <Button x:Name="button" Padding="15" Content="Login" HorizontalAlignment="Center" Margin="0,256,0,0" VerticalAlignment="Top" BorderThickness="0,0,0,0" Background="gray" Foreground="White" FontSize="15" FontFamily="Segoe UI Semibold" Width="216" Click="button_Click"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Foreground="gray" FontFamily="Segoe UI Semilight" FontSize="16" RenderTransformOrigin="1.473,0.596"/>
+    </Grid>
+</Window>
